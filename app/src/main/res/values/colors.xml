@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F4FFF5</color>
+    <color name="textPrimary">#173E17</color>
+    <color name="accent">#5EAD6B</color>
+
+    <color name="primary">#3C9E58</color>
+    <color name="primaryContainer">#D7F2DF</color>
+    <color name="muted">#CFE8D2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#BFD8C4</color>
+    <color name="onPrimary">#FFFFFF</color>
+
+    <!-- Inputs -->
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="inputHint">#68886A</color>
+    <color name="inputStroke">#5EAD6B</color>
+    <color name="inputStrokeDisabled">#BFD8C4</color>
+</resources>

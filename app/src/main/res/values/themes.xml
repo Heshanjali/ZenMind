@@ -1,0 +1,43 @@
+<resources>
+    <style name="Theme.ZenMind" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+
+        <!-- Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:colorBackground">@color/bg</item>
+
+        <!-- Typography / widgets -->
+        <item name="android:textColor">@color/onSurface</item>
+        <item name="materialButtonStyle">@style/Zen.Button</item>
+
+        <!-- Make TextInput visible & pretty -->
+        <item name="textInputStyle">@style/Zen.TextInputLayout</item>
+    </style>
+
+    <style name="Zen.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/onPrimary</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:insetTop">8dp</item>
+        <item name="android:insetBottom">8dp</item>
+    </style>
+
+    <!-- Filled, rounded inputs with clear contrast -->
+    <style name="Zen.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="boxBackgroundColor">@color/inputBackground</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="hintTextColor">@color/inputHint</item>
+        <item name="android:textColorHint">@color/inputHint</item>
+        <item name="boxStrokeColor">@color/inputStroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="counterTextColor">@color/inputHint</item>
+    </style>
+</resources>
